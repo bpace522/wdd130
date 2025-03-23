@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #5F464B;
+    --secondary-color: #7DAA92;
+    --background-color: #80FFEC;
+    --text-color: #000;
+    --font-heading: 'Merriweather', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--primary-color);
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    position: absolute;
+    font-family: var(--font-heading);
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: white;
+}
+
+footer a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
