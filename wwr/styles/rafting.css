@@ -346,3 +346,130 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.cta {
+    background-color: #e0f2f1;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+
+  .cta a {
+    background-color: #00796b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+
+  .newsletter {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .newsletter input[type="text"],
+  .newsletter input[type="email"] {
+    padding: 0.75rem;
+    margin: 0.5rem;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+
+  .newsletter input[type="submit"] {
+    background-color: #00796b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .hero1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('../images/rafting1.webp') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero1 h1 {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+
+  .grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .grid-section img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .grid-section h3 {
+    text-align: center;
+  }
+
+  .content-box {
+    padding: 1rem;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .trip-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .trip {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+  th {
+    background-color: #cad1da;
+  }
